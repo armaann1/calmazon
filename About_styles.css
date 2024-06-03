@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #003262; /* Berkeley Blue */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+section {
+    background-color: #ffffff;
+    border-top: 5px solid #FDB515; /* California Gold */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+section:first-of-type {
+    border-top: none;
+}
+
+h2, h3 {
+    color: #003262;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #FDB515; /* California Gold */
+}
+
+@media screen and (max-width: 768px) {
+    header h1, header p {
+        font-size: 18px;
+    }
+    
+    section {
+        padding: 15px;
+    }
+}
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #362D59; /* Dark blue for text for better readability */
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #003262; /* UC Berkeley Blue */
+    color: #ffffff; /* UC Berkeley Gold */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-weight: bold;
+}
+
+/* Welcome section */
+#welcome {
+    padding: 20px;
+    background-color: #FFF9DB; /* Light gold background for contrast */
+    color: #362D59; /* Dark blue text */
+}
+
+/* How-it-works section */
+#how-it-works {
+    background-color: #003262; /* UC Berkeley Blue */
+    color: #FFF9DB; /* A lightened gold tone for readability */
+    padding: 20px;
+}
+
+#how-it-works h2,
+#for-sellers h3 {
+    color: #FFCB05;
+}
+
+#how-it-works ul,
+#for-sellers ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#how-it-works li,
+#for-sellers li {
+    background-color: #FFF; /* Gold background for list items */
+    color: #003262; /* Blue text for contrast */
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* For-sellers section */
+#for-sellers {
+    background-color: #FFF9DB; /* Light gold */
+    padding: 20px;
+}
+
+#for-sellers h3 {
+    margin-top: 0;
+}
+
+/* Strong tag styling for emphasis */
+strong {
+    color: #003262; /* Darker blue for emphasis */
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #FDB515; /* California Gold */
+}
+
+.top-nav a {
+    color: #003262;
+    text-decoration: none;
+    padding: 8px;
+}
+
+/* Adjust the font sizes as necessary, considering accessibility and design coherence */
