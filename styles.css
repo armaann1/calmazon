@@ -43,7 +43,7 @@ header {
 
 nav {
     background: #FFFFFF;
-    padding: 10px;
+    padding: 19px;
     text-align: center;
 }
 
@@ -55,6 +55,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 10px;
+    padding: 5px;
 }
 
 nav ul li a {
@@ -71,4 +72,13 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+h2 {
+    margin-bottom: 0px; /* Adjust the space below the <h3> as needed */
+}
+
+h4 {
+    margin-top: 0; /* Remove the space above the <h4> */
+    color: #C4820E;
 }
