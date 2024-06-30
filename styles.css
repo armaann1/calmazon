@@ -64,6 +64,11 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #FDB515; /* Change link color on hover (e.g., purple) */
+}
+
 footer {
     text-align: center;
     padding: 10px;
@@ -78,7 +83,19 @@ h2 {
     margin-bottom: 0px; /* Adjust the space below the <h3> as needed */
 }
 
-h4 {
+h3 {
     margin-top: 0; /* Remove the space above the <h4> */
     color: #C4820E;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid;
+    object-fit: cover;
+}
+  
+img:hover {
+    transform: translateX(107px);
 }
