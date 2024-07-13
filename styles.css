@@ -1,10 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     background: #fff;
     color: #003262;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -41,6 +47,10 @@ header {
     background-color: #00254c;
 }
 
+main {
+    flex: 1;
+}
+
 nav {
     background: #FFFFFF;
     padding: 19px;
@@ -74,8 +84,6 @@ footer {
     padding: 10px;
     background: #003262;
     color: white;
-    position: relative;
-    bottom: 0;
     width: 100%;
 }
 
@@ -95,7 +103,7 @@ header img {
     border: 3px solid;
     object-fit: cover;
 }
-  
+
 img:hover {
     transform: translateX(107px);
 }
